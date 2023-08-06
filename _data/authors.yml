@@ -1,0 +1,11 @@
+ransomsec:
+  name: "Ransomsec"
+  bio: "Just a frustrated Student!"
+  avatar: "{{site.baseurl}}/assests/images/avarar.jpg"
+  link:
+    - lable: Email
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ransoms3c@gmail.com"
+    - lable: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/ransomsec"
