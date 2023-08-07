@@ -1,8 +1,6 @@
 # main links
 main:
-  - title: ""
-    url: /tags
+  - title: "My Notes"
+    url: /note
   - title: "About"
     url: /about
-  - title: "Categories"
-    url: /categories

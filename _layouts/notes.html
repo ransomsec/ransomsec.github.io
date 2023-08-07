@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  <article class="notes h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}
+    <header>
+      <h1 class="notes__title p-name" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>"
+        }}</h1>
+    </header>
+    {% endif %}
+
+    <section class="notes__content e-content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>

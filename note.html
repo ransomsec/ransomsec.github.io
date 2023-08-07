@@ -1,0 +1,13 @@
+---
+layout: single
+author_profile: true
+---
+
+<div id="main" role="main">
+  <h1>My Personal Notes!</h1>
+  {% for note in site.notes %}
+  <article class="note">
+    <h2><a href="{{ note.url }}">{{ note.title }}</a></h2>
+  </article>
+  {% endfor %}
+</div>
