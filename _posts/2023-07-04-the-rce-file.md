@@ -5,6 +5,8 @@ categories: [hunting]
 excerpt: The 0$ RCE!
 ---
 
+---
+
 # Introduction
 
 Hello fellow hackers! I hope you are doing well and enjoying your `hacking`
@@ -18,6 +20,8 @@ Table of Contents:
 
 * toc
 {:toc}
+
+---
 
 # Recon
 
@@ -50,6 +54,8 @@ delved into the source code, hoping to find something significant!
 My main target is a money transfer company, and my new target is use their
 services for transferring money. The backup file I found is related to my new
 target, not my primary one.
+
+---
 
 # Catch The Bug
 
@@ -115,6 +121,8 @@ by uploading a [PHP webshell][web-shell]{:target="_blank"}. Now, I had full
 control over the server. It was an exhilarating experience, and I felt like
 Alderson.
 
+---
+
 # Let's Play The Game
 
 Now, time to stop my testing and report it to the victim organization. However,
@@ -169,6 +177,8 @@ They mailed me with this message:
 I said, really ₹5K for RCE|SQLi type issues? Seriously? Then I emailed again and
 asked for an improved bounty, but they did not respond again.
 
+---
+
 # Is Fixed?
 
 Now, one month has passed, and the vulnerability still exists. But one day,
@@ -176,9 +186,12 @@ surprisingly, they silently patched all of the issues. They removed the path,
 disabled the file upload section, and updated the vulnerable code and remove my
 webshell. That's why sometimes I hate logs; now they are not responding again.
 However, their fixes are still vulnerable because they only removed some
-functions. After reading their full source code, I also have an idea of how to
-bypass it again. The new admin path is: `example.com/siteName-AdminLogin`
-changed to `adminlogin.example.com`. LOL!
+functions, mostly vulnerable functions are still in the code.
+
+At this point, not exactly RCE but someone easily access the PII and other
+sensitive information through API.
+
+---
 
 # Headache
 
@@ -194,6 +207,8 @@ to let go of the stress and move forward.
 
 > "O you who have believed, seek help through patience and prayer. Indeed, Allah
 > is with the patient." (Quran 2:153)
+
+---
 
 # Conclusion
 
