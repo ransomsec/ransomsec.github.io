@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "Mounting Windows partition in Linux"
-date: 2023-03-03
+date: 2023-08-08
 ---
 
 I use dual boot (Windows and Linux on the same drive) on my computer. Sometimes,
@@ -27,8 +27,7 @@ partition and lose your data.
 
 **Table of Contents:**
 
-* toc
-{:toc}
+- toc {:toc}
 
 ---
 
