@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "My Notes"
+  - title: "Notes"
     url: /note
   - title: "About"
     url: /about
