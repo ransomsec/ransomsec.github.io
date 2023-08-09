@@ -1,6 +1,10 @@
 ---
 layout: notes
 title: "The Triumph Equation"
+notes_date: true
+notes_pagination: true
+---
+
 ---
 
 $$ (A = (x + y + z)) $$

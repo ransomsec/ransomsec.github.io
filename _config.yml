@@ -117,6 +117,11 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+  
+# Notes Config
+
+notes_date: false
+notes_pagination: false
 
 # Site Footer
 footer:

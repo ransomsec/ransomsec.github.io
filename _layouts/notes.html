@@ -12,8 +12,20 @@ layout: default
     {% endif %}
 
     <section class="notes__content e-content" itemprop="text">
+      {% if page.notes_date %}
+      {% include notes__date.html %}
+      {% elsif site.notes_date %}
+      {% include notes__date.html %}
+      {% endif %}
+
       {{ content }}
-      {% include page__date.html %}
+
+      {% if page.notes_pagination %}
+      {% include post_pagination.html %}
+      {% elsif site.notes_pagination %}
+      {% include post_pagination.html %}
+      {% endif %}
+
     </section>
   </article>
 </div>
