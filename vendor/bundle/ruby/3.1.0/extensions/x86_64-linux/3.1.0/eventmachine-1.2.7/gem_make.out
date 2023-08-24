@@ -1,16 +1,16 @@
-current directory: /home/ransomsec/Desktop/blog-test/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
-/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230806-88337-ygu7pn.rb extconf.rb
+current directory: /home/ransomsec/Desktop/ransomsec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230824-35902-rloeco.rb extconf.rb
 creating Makefile
 
-current directory: /home/ransomsec/Desktop/blog-test/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+current directory: /home/ransomsec/Desktop/ransomsec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make DESTDIR\= clean
 
-current directory: /home/ransomsec/Desktop/blog-test/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+current directory: /home/ransomsec/Desktop/ransomsec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make DESTDIR\=
 compiling mapper.cpp
 compiling rubymain.cpp
 linking shared-object fastfilereaderext.so
 
-current directory: /home/ransomsec/Desktop/blog-test/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+current directory: /home/ransomsec/Desktop/ransomsec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20230806-88337-onvn5s
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20230824-35902-duoh0m
