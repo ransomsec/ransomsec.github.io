@@ -16,43 +16,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monaco&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-//$global-font-family: 'Rubik', sans-serif;
-// $global-font-family: 'Inconsolata', monospace; 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 
-$global-font-family: 'Inter', "Noto Sans", Ubuntu, Inconsolata !default;
-//$global-font-family: 'Noto Sans', sans-serif;
-//$global-font-family: 'Rubik', sans-serif;
-//$global-font-family: 'Source Sans Pro', sans-serif;
+$global-font-family: 'Titillium Web', "Noto Sans", Ubuntu, Inconsolata !default;
 
-
-$header-font-family: 'Ubuntu', sans-serif;//$sans-serif !default;
-$caption-font-family: 'Ubuntu', sans-serif;//$serif !default;
+$single-font: 'Titillium Web';
+$header-font-family: $single-font, sans-serif;
+$caption-font-family: $single-font, sans-serif;
 
 $doc-font-size: 16 default;
 
 /* paragraph indention */
-$paragraph-indent: false !default; // true, false (default)
+$paragraph-indent: false !default; 
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
+$serif: $single-font, Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: $single-font, Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
-$sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
-
-/* serif typefaces */
-$georgia: Georgia, serif !default;
-$times: Times, serif !default;
-$bodoni: "Bodoni MT", serif !default;
-$calisto: "Calisto MT", serif !default;
-$garamond: Garamond, serif !default;
-
+$sans-serif-narrow: $single-font, $sans-serif !default;
+$helvetica: $single-font, Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
