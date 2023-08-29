@@ -2,7 +2,9 @@
 tags: [RCE, SQLi, Bug]
 title: The RCE File
 categories: [hunting]
-excerpt: The 0$ RCE!
+excerpt: The $0 RCE!
+header:
+    image: '/assets/images/headers/di.png'
 ---
 
 ---
