@@ -203,7 +203,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   math_engine: mathjax
-
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Sass/SCSS
 sass:
@@ -312,3 +314,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+
+
+# after_footer_scripts:
+  # - https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+  # - assets/js/clipboardrouge.js
