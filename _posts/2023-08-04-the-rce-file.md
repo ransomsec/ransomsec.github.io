@@ -81,7 +81,7 @@ read.
 My plan was to examine the source code of files with interesting names like
 **admin.js, config.js, server.js, etc.**
 
-{%include gallery id="dir" caption="Directory Listening."%}{:.align-center}
+{%include gallery id="dir" caption="Directory Listening"%}{:.align-center}
 
 During my analysis, I discovered some juicy paths hosted on the official website
 of my new target, such as `example.com/siteName-AdminLogin`, which only had a
@@ -112,7 +112,7 @@ Now, I had access to all the information as in the database but presented in a
 fully designed manner. Looks like the developer put all of their knowledge into
 designing the website. ;)
 
-{%include gallery id="dashboard" caption="Admin Panel."%}{:.align-center}
+{%include gallery id="dashboard" caption="Admin Panel"%}{:.align-center}
 
 Having access to the admin panel meant having the power to do anything
 imaginable. But that didn't stop me because I found a file upload section where
@@ -183,7 +183,7 @@ really close to my area, and at that time, I needed a machine.
 
 They mailed me with this message:
 
-{%include gallery id="mail" caption="Company Response."%}{:.align-center}
+{%include gallery id="mail" caption="Message from Company"%}{:.align-center}
 
 I said, really ₹5K for RCE|SQLi type issues? Seriously? Then I emailed again and
 asked for an improved bounty, but they did not respond again.
