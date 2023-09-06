@@ -96,11 +96,12 @@ Now for this we have three command formats to finalize our work:
 
 I am comfortable with `mount.ntfs` but you can use any other type if you prefer.
 
+![mounted]({{site.baseurl}}/assets/images/mounting/mounted.png){: width="800"
+height="200" .align-center}
+
 Now, our Windows partition is successfully mounted in our Linux partition, and
 we can perform any operation (read, write, execute) that we want.
 
-![mounted]({{site.baseurl}}/assets/images/mounting/mounted.png){: width="800"
-height="200" .align-center}
 
 ---
 
