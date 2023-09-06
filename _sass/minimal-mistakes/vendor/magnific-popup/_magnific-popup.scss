@@ -84,12 +84,32 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   overflow: hidden;
   position: fixed;
 
-  background: $mfp-overlay-color;
+  background: rgba(0, 0, 0, 0.1); 
   opacity: $mfp-overlay-opacity;
+
+  backdrop-filter: blur(2px); /* Adjust the blur amount as needed */
+  -webkit-backdrop-filter: blur(2px);
   @if $mfp-IE7support {
     filter: unquote("alpha(opacity=#{$mfp-overlay-opacity*100})");
   }
 }
+
+.mfp-animate {
+  opacity: 0; /* Initially hide the popup */
+  transform: scale(0.8); /* Initial scale down */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mfp-open.mfp-animate {
+  opacity: 1; /* Show the popup */
+  transform: scale(1); /* Scale back to 100% */
+}
+
+.mfp-close.mfp-animate {
+  opacity: 0; /* Hide the popup on close */
+  transform: scale(0.8); /* Scale down when closing */
+}
+
 
 // Wrapper for popup
 .mfp-wrap {
@@ -514,7 +534,7 @@ button {
     cursor: auto;
   }
   .mfp-title {
-    text-align: left;
+    text-align: center;
     line-height: 18px;
     color: $mfp-caption-title-color;
     word-wrap: break-word;

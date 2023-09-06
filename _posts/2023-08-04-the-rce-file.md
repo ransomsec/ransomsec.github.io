@@ -81,7 +81,7 @@ read.
 My plan was to examine the source code of files with interesting names like
 **admin.js, config.js, server.js, etc.**
 
-{%include gallery id="dir" caption="Directory Listening"%}{:.align-center}
+{%include gallery id="dir" caption="Directory Listening"%}{: .align-center}
 
 During my analysis, I discovered some juicy paths hosted on the official website
 of my new target, such as `example.com/siteName-AdminLogin`, which only had a
