@@ -28,3 +28,7 @@ serves as a digital diary, where I jot down ideas, solutions, and reflections
 that I find valuable and worth revisiting. ;)
 
 [quote]: https://quoteinvestigator.com/2017/10/03/life-success/
+
+---
+
+{% include cat_footer.html %}

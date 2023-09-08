@@ -145,3 +145,5 @@ Here are the best safety precautions to follow:
    partition.
 
 ---
+
+{% include cat_footer.html %}

@@ -251,3 +251,5 @@ during that challenging situation. ;)
 
 [web-shell]: https://www.kali.org/tools/webshells/
 [remonsec]: https://x.com/remonsec
+
+{%include cat_footer.html%}

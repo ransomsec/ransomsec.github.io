@@ -40,3 +40,5 @@ And you're done!
 
 {%include gallery id="injected" caption="Successfully Injected"%}{:.align-center}
 ---
+
+{% include cat_footer.html %}
