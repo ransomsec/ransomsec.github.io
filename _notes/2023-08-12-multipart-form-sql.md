@@ -3,6 +3,11 @@ layout: notes
 notes_date: true
 notes_pagination: true
 title: MultiForm SQLi Technique
+injected:
+- url: /assets/images/notes/injected.png
+  image_path: /assets/images/notes/injected.png
+  title: 'Payload Injected'
+
 ---
 
 If you are performing an SQL Injection attack on your target and encounter
@@ -33,5 +38,5 @@ sqlmap -r request.sql -p username
 
 And you're done!
 
-![injected]({{site.baseurl}}/assets/images/notes/injected.png){: width="950"
-.align-center}
+{%include gallery id="injected" caption="Successfully Injected"%}{:.align-center}
+---

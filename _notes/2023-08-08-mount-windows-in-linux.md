@@ -3,9 +3,26 @@ layout: notes
 title: "Mounting Windows partition in Linux"
 notes_pagination: true
 notes_date: true
+disk:
+- url: /assets/images/mounting/disk_list.png
+  image_path: /assets/images/mounting/disk_list.png
+  title: "Local disk list"
+type:
+- url: /assets/images/mounting/file_type.png
+  image_path: /assets/images/mounting/file_type.png
+  title: 'Partition type'
+mounted:
+- url: /assets/images/mounting/mounted.png
+  image_path: /assets/images/mounting/mounted.png
+  title: 'Path mounted'
+umount:
+- url: /assets/images/mounting/unmounted.png
+  image_path: /assets/images/mounting/unmounted.png
+  title: 'Disk unmounted'
 ---
 
 ---
+
 
 I use dual boot (Windows and Linux on the same drive) on my computer. Sometimes,
 I need some files that are stored on my Windows partition. To access these
@@ -48,8 +65,7 @@ available (you may have more).
 4. The fourth one is a disk i created in my Windows partition, labeled as my (F)
    drive: **58.6G**
 
-![disk_list]({{site.baseurl}}/assets/images/mounting/disk_list.png){:
-width="800" .align-center}
+{%include gallery id="disk" caption="Disk List"%}{: .align-center}
 
 Now I know which partition I want to mount (/dev/sda4). By default, Windows
 partitions typically use the **New Technology File System (NTFS)**. If you want
@@ -59,8 +75,9 @@ to check the file system type, you can use the `lsblk` command.
 $ lsblk -f /dev/sda4   # you need to enter your partition, to check the type
 ```
 
-![file_type]({{site.baseurl}}/assets/images/mounting/file_type.png){:
-.align-center}
+
+{%include gallery id="type" caption="Partition Type"%}{: .align-center}
+
 
 ---
 
@@ -96,8 +113,9 @@ Now for this we have three command formats to finalize our work:
 
 I am comfortable with `mount.ntfs` but you can use any other type if you prefer.
 
-![mounted]({{site.baseurl}}/assets/images/mounting/mounted.png){: width="800"
-height="200" .align-center}
+
+{%include gallery id="mounted" caption="Disk successfully mounted"%}{: .align-center}
+
 
 Now, our Windows partition is successfully mounted in our Linux partition, and
 we can perform any operation (read, write, execute) that we want.
@@ -111,8 +129,7 @@ After mounting and completing the work, you will want to unmount the partition.
 To do this, simply use the `umount` command. This command will unmount the
 Windows partition from your Linux partition.
 
-![mounted]({{site.baseurl}}/assets/images/mounting/unmounted.png){: width="800"
-.align-center}
+{%include gallery id="umount" caption="Disk successfully unmounted"%}{:.align-center}
 
 See, our windows mounted partiton successfully unmounted.
 

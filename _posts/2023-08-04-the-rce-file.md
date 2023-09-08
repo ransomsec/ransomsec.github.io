@@ -93,7 +93,7 @@ hosted on AWS.
 > deploy to the target server. Adminer is available for MySQL, PostgreSQL,
 > SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB.
 
-Now, with DB credentials i access to the Adminer, Now i had the freedom to
+Now, with DB credentials I access to the Adminer, Now I had the freedom to
 perform CRUD operations on the target server. I considered updating the
 passwords of available admins on the server to directly login to the admin panel
 becuase it's not in encrypted form (?). However, I didn't want to take the easy
@@ -103,8 +103,8 @@ the Admin panel further to continue my journey.
 In the admin panel, the UI/UX appeared well-designed, but I was more interested
 in testing its security.
 
-Now i ask you a question! As a hacker, what first thing comes in your mind when
-you seeing a login panel? `'or 1=1-- sql'` Right? That's exactly the same thing
+Now I ask you a question! As a hacker, what first thing comes in your mind when
+you're seeing a login panel? `'or 1=1-- sql'` Right? That's exactly the same thing
 also come in my mind, so, I put the payload in the username/email field, and to
 my surprise, my new target was vulnerable to **SQL injection**. ;)
 
@@ -119,14 +119,14 @@ imaginable. But that didn't stop me because I found a file upload section where
 banner says only `.png|.jpg/.jpeg` files are allowed? Seriously? Let's check it.
 Now again if you see file upload option, in your target, what thing first come
 in your mind? `Unrestricted File Upload?`. So as expected, I also thought about
-this, and i uploaded a simple PHP script,
+this, and I uploaded a simple PHP script,
 
 ```php
 <?php phpinfo();?>
 ```
 
-and voila it was executed on the backend, giving me the PHP info. Meaning their
-is not security checks in the file upload section.
+and voila it was executed on the backend, giving me the PHP info. Meaning there
+is no security checks in the file upload section.
 
 With that success, I proceeded to gain Remote Code Execution (RCE) on the server
 by uploading a [PHP webshell][web-shell]{:target="_blank"}. Now, I had full
@@ -193,7 +193,7 @@ asked for an improved bounty, but they did not respond again.
 # Is Fixed?
 
 Now, one month has passed, and the vulnerability still exists. But one day,
-surprisingly, they silently patched all of the issues. They removed the path,
+surprisingly, they silently patched all the issues. They removed the path,
 disabled the file upload section, and updated the vulnerable code and remove my
 webshell. That's why sometimes I hate logs; now they are not responding again.
 However, their fixes are still vulnerable because they only removed some
@@ -224,7 +224,7 @@ to let go of the stress and move forward.
 # Conclusion
 
 In conclusion, I have more details to share, but for now, I believe it's
-sufficient to disclose what I have found. Through this experience, I have
+enough to disclose what I have found. Through this experience, I have
 learned some valuable lessons.
 
 1. To be cautious when choosing a target for testing, especially if they do not
@@ -240,7 +240,7 @@ learned some valuable lessons.
    your curiosity and passion for hacking lead you to uncover the secrets hidden
    within the code. Happy hacking! 🚀
 
-And lastly, I would like to thanks my bhai
+And lastly, I would like to thank my bhai
 [RemonSec][remonsec]{:target="_blank"} for the tremendous support provided
 during that challenging situation. ;)
 
