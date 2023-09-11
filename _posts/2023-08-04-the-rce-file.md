@@ -249,6 +249,8 @@ during that challenging situation. ;)
 **Thank you for your time and for reading my blog. Hope you learned something.**
 ;)
 
+-- ransomsec
+
 [web-shell]: https://www.kali.org/tools/webshells/
 [remonsec]: https://x.com/remonsec
 
