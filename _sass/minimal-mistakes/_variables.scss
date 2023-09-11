@@ -17,13 +17,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Monaco&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=IM+Fell+DW+Pica&family=Source+Code+Pro&display=swap');
 
 
 $global-font-family: 'Titillium Web', "Noto Sans", Ubuntu, Inconsolata !default;
-
+$post-header-style: 'Courier Prime';
 $single-font: 'Titillium Web';
-$header-font-family: $single-font, sans-serif;
-$caption-font-family: $single-font, sans-serif;
+$header-font-family: $post-header-style, sans-serif !important;
+$caption-font-family: $post-header-style, sans-serif;
 
 $doc-font-size: 16 default;
 
