@@ -144,6 +144,4 @@ Here are the best safety precautions to follow:
 3. Exercise caution when performing any write operations on the mounted
    partition.
 
----
-
 {% include cat_footer.html %}

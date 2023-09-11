@@ -10,5 +10,4 @@ permalink: '/about'
 -- ransomsec
 <br>
 
----
 {% include cat_footer.html %}
