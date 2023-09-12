@@ -1,6 +1,10 @@
 ---
 title: 'Code Block'
-excerpt: 'Code block testing!'
+excerpt: 'Testing post for code block!'
+ribbon: skyblue
+categories: code
+header:
+    teaser: '/assets/images/code.jpg'
 ---
 
 ### Rust Code:

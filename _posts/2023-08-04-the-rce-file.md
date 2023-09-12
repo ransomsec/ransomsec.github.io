@@ -1,10 +1,12 @@
 ---
 tags: [RCE, SQLi, Bug]
 title: The RCE File
-categories: [hunting]
+ribbon: red
+categories: bug-hunting
 excerpt: The $0 RCE!
 header:
     image: '/assets/images/headers/di.png'
+    teaser: '/assets/images/headers/di.png'
 dir:
 - url: /assets/images/rd/dir.png
   image_path: /assets/images/rd/dir.png
