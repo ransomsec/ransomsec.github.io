@@ -5,8 +5,7 @@ ribbon: red
 categories: bug-hunting
 excerpt: The $0 RCE!
 header:
-    image: '/assets/images/headers/di.png'
-    teaser: '/assets/images/headers/di.png'
+    teaser: '/assets/images/teasers/bug.jpg'
 dir:
 - url: /assets/images/rd/dir.png
   image_path: /assets/images/rd/dir.png
@@ -250,8 +249,6 @@ during that challenging situation. ;)
 
 **Thank you for your time and for reading my blog. Hope you learned something.**
 ;)
-
--- ransomsec
 
 [web-shell]: https://www.kali.org/tools/webshells/
 [remonsec]: https://x.com/remonsec
