@@ -10,6 +10,8 @@ injected:
 
 ---
 
+---
+
 If you are performing an SQL Injection attack on your target and encounter
 `Content-Type: multipart/form-data` where do you start the attack?
 
