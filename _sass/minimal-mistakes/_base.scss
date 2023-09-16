@@ -183,8 +183,10 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid red; /* $border-color;*/
+  box-shadow: 0px 0px 4px 1px #ff0000;
 }
+
 
 /* lists */
 
