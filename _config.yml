@@ -1,6 +1,6 @@
 # Theme: minimal-mistakes
 
-minimal_mistakes_skin    : "daemon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "typing" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-IN"
@@ -191,6 +191,9 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+
+port: 3000
+host: 0.0.0.0
 
 # Markdown Processing
 kramdown:
